@@ -10,7 +10,7 @@ const displayPhone =phones=>{
     const phonesContainer = document.getElementById('phones-container');
     phonesContainer.textContent = ''
     // display 20 phone only 
-    phones = phones.slice(0,20)
+    phones = phones.slice(0,12)
 
     // Display no phones found
     const noPhone = document.getElementById('no-found-message')
